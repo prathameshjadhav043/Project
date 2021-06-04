@@ -1,0 +1,96 @@
+body{
+    background-color: white;
+}
+table{
+    margin: auto;
+    background-color: #9dd2ea;
+    width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top:50px;
+}
+#calculator{
+    position: absolute;
+    max-width: 80%;
+    left: 58%;
+    top: 10%;
+}
+input{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+input:hover{
+    border: 0 solid #000;
+    color: #495069;
+    background-color: #7cda5f;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px #644294;
+}
+input{
+    border: solid 2px rgb(73, 123, 230);
+    border-radius: 6px;
+    margin: 5px;
+}
+#answer{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #f1faeb;
+    float: left;
+}
+#answer:hover{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    background-color: #f1faeb;
+}
+.operator{
+    background-color: lightblue;
+    position: relative;
+}
+.operator:hover{
+    background-color: #f56b6b;
+    box-shadow: 0 4px #b7c259;
+}
+#clear{
+    float: left;
+    position: relative;
+    display: block;
+    background-color: lightblue;
+    margin-bottom: 15px;
+}
+#clear:hover{
+    float: left;
+    display: block;
+    background-color: #f297a0;
+    margin-bottom: 15px;
+    box-shadow: 0 4px #cc7f86;
+}
+.calc11{
+    border: solid 2px blue;
+    border-radius: 6px;
+}
+#submit{
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: lightblue;
+}
