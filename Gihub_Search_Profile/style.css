@@ -20,7 +20,16 @@ html {
   display: flex;
 }
 .img {
-  margin: 20px;
-  width: 40vh;
-  height: 40vh;
+  margin: 30px;
+  width: 20vh;
+  height: 20vh;
+}
+@media (max-width: 700px) {
+  #result {
+    display: block;
+  }
+  .img {
+    width: 150px;
+    height: 150px;
+  }
 }
